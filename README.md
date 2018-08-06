@@ -26,7 +26,6 @@ the default path to search is the current directory.
 python dotm_search.py "some text" --dir "./dotm_files"
 python dotm_search.py "other text"  # defaults to current dir search.
 ```
-
 - Your program should print the full path name of each file that was found to contain the search text.  If the file contains multiple matches, just count it as a single match.
 - For context, print a partial line of the dotm text that was found to contain the search text.  Limit the printed line to +/- 40 characters on each side of the matched text.  Example: `"...alculated on a per article basis (up to $500 each), the total false marking penal..."`
 - Count the total number of file matches as well as total number of files searched, and display the results before exiting.
